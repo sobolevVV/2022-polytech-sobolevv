@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.1...3.24)
-project(Sorting
+project(Sort
         VERSION 1.0
         LANGUAGES CXX)
-add_executable(Sorting main.cpp)
+add_executable(Sort main.cpp)
