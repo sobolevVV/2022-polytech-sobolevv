@@ -3,10 +3,10 @@
 
 int main() 
 {
-  String a = "I love ";
+  String a = "Hello";
   
-  String b = "computer science";
+  String b = " World!";
   String c = a + b;
-  std::cout << c << std::endl;
+  std::cout << c << '\n' << c.get_length() << std::endl;
   return 0;
 }
